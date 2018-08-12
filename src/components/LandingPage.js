@@ -34,9 +34,9 @@ class LandingPage extends React.Component {
           <div className="qualities">
             Please, do have a look around
           </div>
-          <a href=""><img className="social-media" src="https://grytics.com/wp-content/uploads/2015/01/1414386638_linkedin_circle_color-512.png"></img></a>
-          <a href=""><img className="social-media" src="https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png"></img></a>
-          <a href=""><img className="social-media" src="https://streamdata.io/wp-content/uploads/2018/04/stack-overflow-orange.png"></img></a>
+            <a href="https://www.linkedin.com/in/sehmim-haque/"><img className="social-media" src="https://grytics.com/wp-content/uploads/2015/01/1414386638_linkedin_circle_color-512.png"></img></a>
+            <a href="https://github.com/sehmim"><img className="social-media" src="https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png"></img></a>
+            <a href="https://stackoverflow.com/users/9531113/sehmim-al-haque"><img className="social-media" src="https://streamdata.io/wp-content/uploads/2018/04/stack-overflow-orange.png"></img></a>
         </div>
       ); 
     }
