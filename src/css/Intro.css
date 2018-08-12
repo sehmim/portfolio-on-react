@@ -1,0 +1,79 @@
+li {
+    font-size: 200%;
+    margin: 10px 35px 0 50px;
+    font-family: 'Sacramento', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: bisque;
+}
+a:hover { 
+    color: azure;
+}
+a:focus { 
+    color: bisque;
+}
+
+.intro-loading-gif{
+    height: 80%;
+    width: 80%;
+}
+
+.Landing-Page{
+    background-image: url('/images/Untitled-1.jpg');  
+    background-size: 100%;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+.name-header{
+    position: relative;
+    top: 5%;
+    font-size: 800%;
+    font-family: 'Cookie', cursive;
+}
+.circle{
+    position: relative;
+    width: 15%;
+    height: 25%;
+    border-radius: 50%;
+    
+}
+
+.qualities{
+    font-family: 'Tangerine';
+    font-size: 250%;
+    position: relative;
+    top: 3%;
+    margin: 0 0 0 0;
+}
+
+.social-media{
+    margin: 1.5% 0 0 1%;
+    width: 3.5%;
+}
+
+.social-media:hover{
+    transform: translateY(-3px);
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 767px) {
+ul {
+    opacity: 0;
+}
+.circle{
+    opacity: 0;
+}
+.name-header{
+    top: 15%;
+
+    font-size: 500%;
+}
+.qualities{
+    opacity: 0;
+}
+  }
