@@ -15,7 +15,7 @@ class Navbar extends React.Component {
                 <ul className="nav navbar-nav">{
                   navbarData.map( item =>{
                     return(
-                      <li> <a href={item.url}>{item.title}</a></li>
+                      <li key={item.id}> <a href={item.url}>{item.title}</a></li>
                     )
                   })
                 }
