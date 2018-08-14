@@ -29,8 +29,7 @@ class Projects extends React.Component {
         { title: 'Photos', id:'2'},
         { title: 'Music', id:'3'}
       ]
-
-
+      
       return (
         <div className="" id="projects">
             <hr /><div className="name-header">Projects<hr />

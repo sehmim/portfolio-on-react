@@ -25,7 +25,8 @@ class LandingPage extends React.Component {
         <div className="Landing-Page">
           <Navbar/>
           <h1 className="name-header"> Sehmim Al</h1><br/>
-          <img src="/images/profile.jpg" className="circle"></img> 
+          <img src="https://scontent.fybz1-1.fna.fbcdn.net/v/t1.0-9/33691440_1784156978310338_35797598929420288_n.jpg?_nc_cat=0&oh=7c3b916a5053b8580eba5ab438f338d5&oe=5C0EF3EB"
+          className="circle"></img> 
           <div className="qualities">
           ♦<a href="#projects" > ♦ Web Developer ♦</a>
             <a href="#"> ♦ Photographer ♦</a>

@@ -31,13 +31,15 @@ a:focus {
 
 .name-header{
     position: relative;
-    top: 5%;
+    bottom: 9%;
     font-size: 800%;
     font-family: 'Cookie', cursive;
 }
 .circle{
-    position: relative;
-    width: 15%;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    width: 13%;
     height: 25%;
     border-radius: 50%;
     
@@ -61,6 +63,11 @@ a:focus {
     box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.2);
 }
 
+
+.video {
+    width: 50%;
+    height: 50%;
+}
 @media screen and (max-width: 767px) {
 ul {
     opacity: 0;
