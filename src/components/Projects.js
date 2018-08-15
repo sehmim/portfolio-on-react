@@ -9,6 +9,7 @@ import '../css/sidebar.css';
 import WebProjects from './WebProjects';
 import ProjectsPhoto from "./PhotoProjects";
 import MusicProjects from "./MusicProjects";
+import SideBar from "./SideBar";
 
 
 class Projects extends React.Component {   
@@ -16,11 +17,12 @@ class Projects extends React.Component {
   state = {
     catagoryID : '1'
   }
-    changeState = (data) =>{
-      this.setState({
-        catagoryID : data
-      })
-    }
+
+  sideBar = (data) =>{
+    this.setState({
+      catagoryID : data
+    })
+  }
 
     render() {
 
@@ -31,36 +33,10 @@ class Projects extends React.Component {
       ]
       
       return (
+        
         <div className="" id="projects">
             <hr /><div className="name-header">Projects<hr />
-            {/* < ----- MOVE THIS TO A DIFFERENT COMPONENT IN THE FUTURE */}
-            <div className="SidebarNav">
-              <aside className="col-12 col-md-2 p-0 bg-dark">
-                <nav className="navbar navbar-expand navbar-dark bg-dark flex-md-column flex-row align-items-start py-2">
-                    <div className="collapse navbar-collapse">
-                      <ul className="flex-md-column flex-row navbar-nav w-100 justify-content-between">
-                          {
-                              sideNavbarData.map(item =>{
-                                  return (
-                                      <li key={item.id} className="nav-item">
-                                          <a  onClick={this.catagorySecelt} 
-                                              value={sideNavbarData.id}
-                                              className="nav-link pl-0 text-nowrap"
-                                              href={ '#' + item.title}
-                                              onClick={()=>this.changeState( item.id )} >
-                                                  { item.title }
-                                          </a>
-                                      </li>
-                                  )
-                              })
-                            }
-                        </ul>
-                      </div>
-                  </nav>
-                </aside>
-              </div>
-          {/* MOVE THIS TO A DIFFERENT COMPONENT IN THE FUTURE  --- > */}
-            
+              <SideBar dataFromSideBar = {this.sideBar} />
             </div>
               {
                 this.state.catagoryID === '1' ? <WebProjects />: null || 

@@ -36,7 +36,7 @@ class MusicProjects extends React.Component {
           ]
 
       return (
-        <div className="">
+        <div className="" id="Musician">
             <div className="container"> 
             <MusicPlayer playlist={playlist} />
               <div className="row col-lg-2 col-md-6 col-xs-12">

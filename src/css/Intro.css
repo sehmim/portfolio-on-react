@@ -7,6 +7,10 @@ li {
 a{
     text-decoration: none;
     color: bisque;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 700;
+
+
 }
 a:hover { 
     color: azure;
@@ -16,8 +20,11 @@ a:focus {
 }
 
 .intro-loading-gif{
-    height: 80%;
-    width: 80%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    height: 50%;
+    width: 40%;
 }
 
 .Landing-Page{
@@ -26,6 +33,7 @@ a:focus {
     background-position: center;
     height: 100vh;
     background-repeat: no-repeat;
+    
 }
 
 

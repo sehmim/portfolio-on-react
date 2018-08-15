@@ -13,7 +13,7 @@ class ProjectsPhoto extends React.Component {
             { title: 'A Chair', picture: 'http://gdurl.com/J938', id:'4', href: 'www.google.com'},
         ]
       return (
-        <div className="">
+        <div className="" id="Photo">
                 <div className="container">
             { 
                 projectsPhoto.map(item => {
