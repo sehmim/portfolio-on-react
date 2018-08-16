@@ -42,3 +42,12 @@
     text-align: center;
     font-family: 'Asap';
 }
+
+/* Smartphones ----------- */
+@media screen and (max-width : 480px) {
+    .header-general{
+        font-family: 'Asap';
+        font-size: 100%;
+
+    }
+}

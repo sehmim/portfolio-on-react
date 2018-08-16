@@ -12,13 +12,19 @@ import Projects from "./components/Projects";
 class App extends Component {
   state = {
     // NOTE: change this back to treu!! 
-    loading: false
+    loading: false,
+    id : '1'
   };
 
   componentDidMount() {
     setTimeout(() => this.setState({ loading: false }), 3000); // simulates an async action, and hides the spinner
   }
 
+  changingState = (data) => {
+    this.setState({
+      id : data
+    })
+  } 
   render() {
     const { loading } = this.state;
       
@@ -28,8 +34,8 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <LandingPage />
-        <Projects />
+        <LandingPage dataFromLand ={ this.changingState } />
+        <Projects PropjectsState ={ this.changingState } />
       </div>
     );
   }

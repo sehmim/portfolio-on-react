@@ -24,6 +24,10 @@ class Projects extends React.Component {
     })
   }
 
+  datafromPropects = (data) =>{
+    this.props.PropjectsState(this.state.catagoryID)
+  }
+
     render() {
 
       const sideNavbarData = [

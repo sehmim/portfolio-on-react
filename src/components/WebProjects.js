@@ -19,7 +19,7 @@ class WebProjects extends React.Component {
             { 
                 projectsWebsite.map(item => {
                     return(
-                        <div className="col-lg-3 col-md-3 col-xs-10 col-xs-offset-4 border" key={item.id}>
+                        <div className="col-lg-3 col-md-3 col-sm-2 col-xs-1 col-xs-offset-8 border" key={item.id}>
                         <h2 className="header-general"> {item.title} </h2>
                             <h5 className="header-sub"> { item.technology } Appication</h5>
                             <a href={item.href}><img className="proj-img" src={item.picture}></img></a>

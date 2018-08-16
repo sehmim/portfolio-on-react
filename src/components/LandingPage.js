@@ -3,14 +3,17 @@ import '../css/Intro.css';
 import Navbar from './Navbar';
 
 class LandingPage extends React.Component {
-
+  
+  dataFromLand = (data) =>{
+    this.props.dataFromLand(data)
+  }
     
     render() {
 
       const qualities = [
         { href : "#projects", title: "Web Developer", id:"1"  },
-        { href : "#photo", title: "Photograher", id:"2" },
-        { href : "#music", title: "Musician", id:"3" }
+        { href : "#projects", title: "Photograher", id:"2" },
+        { href : "#projects", title: "Musician", id:"3" }
       ]
 
       const socialMedia = [
@@ -29,7 +32,7 @@ class LandingPage extends React.Component {
             {
               qualities.map(item => { 
                 return(
-                  <a key={item.id} href= {item.href}> ♦ {item.title} ♦</a>
+                  <a onClick={()=> this.dataFromLand(item.id)} key={item.id} href= {item.href}> ♦ {item.title} ♦</a>
                 )
               })
             }♦

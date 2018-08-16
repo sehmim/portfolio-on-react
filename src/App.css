@@ -12,3 +12,7 @@
 .navbar .navbar-collapse {
   text-align: center;
 }
+
+.player-container .info-and-control .music-info .title {
+  color: grey !important ;
+}

@@ -28,7 +28,7 @@ class SideBar extends React.Component {
       ]
       
       return (
-        <div className="SidebarNav">
+        <div id="SidebarNav" className="SidebarNav">
             <aside className="col-12 col-md-2 p-0 bg-dark">
                 <nav className="navbar navbar-expand navbar-dark bg-dark flex-md-column flex-row align-items-start py-2">
                     <div className="collapse navbar-collapse">
