@@ -43,6 +43,14 @@ a:focus {
     font-size: 800%;
     font-family: 'Cookie', cursive;
 }
+
+.header-message{
+    font-family: 'Cookie', cursive;
+    font-weight: 300;
+    font-size: 300%;
+    color: black;
+}
+
 .circle{
     position: absolute;
     top: 30%;

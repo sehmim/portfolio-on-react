@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/Intro.css';
 import Navbar from './Navbar';
+import Popup from "reactjs-popup";
 
 class LandingPage extends React.Component {
   
@@ -27,7 +28,15 @@ class LandingPage extends React.Component {
         <div className="Landing-Page">
           <Navbar/>
           <h1 className="name-header"> Sehmim Al</h1><br/>
-            <img src={dp} className="circle"></img> 
+          <Popup  trigger={<img src={dp} className="circle"></img> }
+                  position="top left">
+                {close => (
+                <div className="header-message" onClick={close}>
+                    Hello
+                </div>
+            )}
+          </Popup>
+            
           <div className="qualities"> ♦
             {
               qualities.map(item => { 

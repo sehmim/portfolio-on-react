@@ -8,8 +8,10 @@
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.2",
     "react-player": "^1.6.4",
+    "react-popup": "^0.9.3",
     "react-responsive-music-player": "^0.3.0",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "reactjs-popup": "^1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
