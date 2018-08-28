@@ -12,7 +12,7 @@ import Projects from "./components/Projects";
 class App extends Component {
   state = {
     // NOTE: change this back to treu!! 
-    loading: false,
+    loading: true,
     id : '1'
   };
 

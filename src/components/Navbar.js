@@ -6,8 +6,7 @@ class Navbar extends React.Component {
     render() {
       const navbarData = [
         { title: 'Home', url: '/', id:'1'},
-        { title: 'Projects', url: '#projects', id:'2'},
-        { title: 'Contact', url: '#', id:'3'}
+        { title: 'Projects', url: '#projects', id:'2'}
       ]
       return (
         <div className="">

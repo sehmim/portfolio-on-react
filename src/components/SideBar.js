@@ -4,13 +4,6 @@ import '../css/Intro.css';
 import '../css/sidebar.css';
 
 
-
-// conmopenets
-import WebProjects from './WebProjects';
-import ProjectsPhoto from "./PhotoProjects";
-
-
-
 class SideBar extends React.Component {   
 
 
