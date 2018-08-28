@@ -16,7 +16,7 @@ class SideBar extends React.Component {
 
       const sideNavbarData = [
         { title: 'Websites', id:'1'},
-        { title: 'Photos', id:'2'},
+        { title: 'Arts', id:'2'},
         { title: 'Music', id:'3'}
       ]
       

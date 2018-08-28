@@ -13,7 +13,7 @@ class LandingPage extends React.Component {
 
       const qualities = [
         { href : "#projects", title: "Web Developer", id:"1"  },
-        { href : "#projects", title: "Photograher", id:"2" },
+        { href : "#projects", title: "Artsy Guy", id:"2" },
         { href : "#projects", title: "Musician", id:"3" }
       ]
 

@@ -7,10 +7,9 @@ class ProjectsPhoto extends React.Component {
    
     render() {
         const projectsPhoto = [
-            { title: 'Jake the Dog', picture: 'http://gdurl.com/Xe0l', id:'1', href: 'www.google.com'},
-            { title: 'Lost-and-Found', picture: 'http://gdurl.com/Z_PH', id:'2', href: 'www.google.com'},
-            { title: 'Spicy', picture: 'http://gdurl.com/66aD', id:'3', href: 'www.google.com'},
-            { title: 'A Chair', picture: 'http://gdurl.com/J938', id:'4', href: 'www.google.com'},
+            { title: 'Secret', picture: 'https://i.imgur.com/1hy7sRo.jpg', id:'2', href: 'www.google.com'},
+            { title: 'Spicy', picture: 'https://i.imgur.com/LouFvjF.jpg', id:'3', href: 'www.google.com'},
+            { title: 'Suace', picture: 'https://i.imgur.com/N5gzAZQ.jpg', id:'4', href: 'www.google.com'},
         ]
       return (
         <div className="" id="photo">
