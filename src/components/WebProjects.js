@@ -12,7 +12,7 @@ class WebProjects extends React.Component {
             { title: 'Movie-Review', details: 'A rails appication where user can add their favorite movies and have other users comment on the movies and rate them.', technology: 'Rails' , picture: 'https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png', id:'3', href: 'https://github.com/sehmim/movie-app'},
             { title: 'Bank-app', details: 'After a day’s hard work at school or college, a student can get rid of boredom on the play-ground. Work alone is not enough. That is why it is said: “All work and no play, makes Jack a dull boy”.', technology: 'Java' , picture: 'https://www.macupdate.com/images/icons256/51370.png', id:'5', href: 'https://github.com/sehmim/android-bankapp'},
             { title: "The Liberator's Odyssey", details: 'First game I built using vanilla JavaScript. It mainly revolves around greek Mythology. Main quest is to find a stone.', technology: 'JavaScript' , picture: 'https://i.vimeocdn.com/portrait/13811696_300x300', id:'2', href: 'http://dm.ampd.yorku.ca/web/sehmim/datt1939/a2/'},
-            { title: "Current Website", details: 'Github Repo for the current website that is being used.', technology: 'React' , picture: 'https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png', id:'6', href: 'https://github.com/sehmim/portfolio-on-react'}
+            { title: "Current running Website", details: 'Github Repo for the current website. This is a very basic static website with only CSS and bootstrap linked to it.', technology: 'React' , picture: 'https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png', id:'6', href: 'https://github.com/sehmim/portfolio-on-react'}
 
         ]
       return (
