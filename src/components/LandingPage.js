@@ -22,7 +22,7 @@ class LandingPage extends React.Component {
         { href: "https://github.com/sehmim" , src: "https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png", id:"2"  },
         { href: "https://stackoverflow.com/users/9531113/sehmim-al-haque" , src: "https://streamdata.io/wp-content/uploads/2018/04/stack-overflow-orange.png" , id:"3" }
       ]
-      const dp = "https://scontent.fybz1-1.fna.fbcdn.net/v/t1.0-9/33691440_1784156978310338_35797598929420288_n.jpg?_nc_cat=0&oh=7c3b916a5053b8580eba5ab438f338d5&oe=5C0EF3EB";
+      const dp = "https://i.imgur.com/SOlv4Rx.jpg";
 
       return (
         <div className="Landing-Page">
