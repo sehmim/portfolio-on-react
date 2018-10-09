@@ -23,14 +23,15 @@
 
 
 .proj-img{
+    padding: 0px;
     margin: 0%;
     width: 40%;
 }
 
 .proj-img-photo{
     margin: 1%;
-    width: 50%;
-    height: 50%;
+    width: 30vw;
+    height: 60vh;
 }
 
 .proj-img:hover {

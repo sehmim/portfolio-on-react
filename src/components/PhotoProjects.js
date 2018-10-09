@@ -7,6 +7,10 @@ class ProjectsPhoto extends React.Component {
    
     render() {
         const projectsPhoto = [
+            { title: 'Me', picture: 'https://i.imgur.com/SOlv4Rx.jpg', id:'2', href: 'www.google.com'},
+            { title: 'Fall', picture: 'https://i.imgur.com/kVNsQ44.jpg', id:'2', href: 'www.google.com'},
+            { title: 'Zoomed', picture: 'https://i.imgur.com/Nuivust.jpg', id:'2', href: 'www.google.com'},
+            { title: 'Life', picture: 'https://i.imgur.com/86s20ES.jpg?1', id:'2', href: 'www.google.com'},
             { title: 'Secret', picture: 'https://i.imgur.com/1hy7sRo.jpg', id:'2', href: 'www.google.com'},
             { title: 'Spicy', picture: 'https://i.imgur.com/LouFvjF.jpg', id:'3', href: 'www.google.com'},
             { title: 'Suace', picture: 'https://i.imgur.com/N5gzAZQ.jpg', id:'4', href: 'www.google.com'},
