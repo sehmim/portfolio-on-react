@@ -28,7 +28,7 @@ a:focus {
 }
 
 .Landing-Page{
-    background-image: url('/images/Untitled-1.jpg');  
+    /* background-image: url('/images/Untitled-1.jpg');   */
     background-size: 100%;
     background-position: center;
     height: 100vh;
