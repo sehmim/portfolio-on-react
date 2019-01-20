@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import './css/projects.css';
-import './css/Intro.css';
+import './css/Intro.sass';
 import './css/sidebar.css';
 
 //componenets

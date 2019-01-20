@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Intro.css';
+import '../css/Intro.sass';
 import '../css/projects.css';
 
 

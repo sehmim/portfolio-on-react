@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/projects.css';
-import '../css/Intro.css';
+import '../css/Intro.sass';
 import '../css/sidebar.css';
 
 
